@@ -10,9 +10,7 @@ class Multiples
     i = 1
     arr = []
     while i < @limit
-      if i % 3 == 0
-        arr << i
-      elsif i % 5 == 0
+      if i % 3 == 0 || i % == 0
         arr << i
       end
     i += 1
