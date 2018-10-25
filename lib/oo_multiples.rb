@@ -5,7 +5,6 @@ class Multiples
 
   def initialize(limit)
     @limit = limit
-    @multiples = nil
     @@all << self
   end
 
