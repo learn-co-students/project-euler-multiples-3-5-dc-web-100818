@@ -1,6 +1,5 @@
 # Enter your procedural solution here!
 
-
 def collect_multiples(number) 
   list = (1...number).to_a
   newList = list.select do |num| 
